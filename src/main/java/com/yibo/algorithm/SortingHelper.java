@@ -1,9 +1,11 @@
 package com.yibo.algorithm;
 
+import com.yibo.algorithm.heapsort.HeapSort2;
 import com.yibo.algorithm.insertionsort.InsertionSort;
 import com.yibo.algorithm.mergesort.*;
 import com.yibo.algorithm.quicksort.*;
 import com.yibo.algorithm.selectionsort.SelectionSort;
+import com.yibo.algorithm.heapsort.HeapSort;
 
 /**
  * @Author: huangyibo
@@ -47,6 +49,10 @@ public class SortingHelper {
             QuickSort4.quickSort(arr);
         }else if("QuickSort5".equals(sortName)){
             QuickSort5.quickSort(arr);
+        }else if("HeapSort".equals(sortName)){
+            HeapSort.heapSort(arr);
+        }else if("HeapSort2".equals(sortName)){
+            HeapSort2.heapSort(arr);
         }
 
         long endTime = System.nanoTime();

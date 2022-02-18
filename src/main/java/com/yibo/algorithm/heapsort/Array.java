@@ -1,4 +1,4 @@
-package com.yibo.datastructure.maxheap;
+package com.yibo.algorithm.heapsort;
 
 /**
  * @Author: huangyibo

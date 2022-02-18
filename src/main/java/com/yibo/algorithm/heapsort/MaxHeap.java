@@ -1,4 +1,6 @@
-package com.yibo.datastructure.maxheap;
+package com.yibo.algorithm.heapsort;
+
+import com.yibo.datastructure.maxheap.Array;
 
 /**
  * @Author: huangyibo
@@ -66,7 +68,7 @@ public class MaxHeap<E extends Comparable<E>> {
     }
 
     /**
-     * 回完全二叉树的数组表示中，一个索引所表示的元素的右孩子节点的索引
+     * 返回完全二叉树的数组表示中，一个索引所表示的元素的右孩子节点的索引
      * @param index
      * @return
      */
@@ -127,7 +129,7 @@ public class MaxHeap<E extends Comparable<E>> {
     }
 
     /**
-     * k索引元素比左右孩子节点元素小，则交换位置，不断循环
+     * k索引元素比其左右孩子节点元素小，则交换位置，不断循环
      * @param k
      */
     private void siftDown(int k){
