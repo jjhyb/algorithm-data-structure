@@ -1,5 +1,6 @@
 package com.yibo.algorithm;
 
+import com.yibo.algorithm.bubblesort.*;
 import com.yibo.algorithm.heapsort.HeapSort2;
 import com.yibo.algorithm.insertionsort.InsertionSort;
 import com.yibo.algorithm.mergesort.*;
@@ -53,6 +54,16 @@ public class SortingHelper {
             HeapSort.heapSort(arr);
         }else if("HeapSort2".equals(sortName)){
             HeapSort2.heapSort(arr);
+        }else if("BubbleSort".equals(sortName)){
+            BubbleSort.bubbleSort(arr);
+        }else if("BubbleSort2".equals(sortName)){
+            BubbleSort2.bubbleSort(arr);
+        }else if("BubbleSort3".equals(sortName)){
+            BubbleSort3.bubbleSort(arr);
+        }else if("BubbleSort4".equals(sortName)){
+            BubbleSort4.bubbleSort(arr);
+        }else if("BubbleSort5".equals(sortName)){
+            BubbleSort5.bubbleSort(arr);
         }
 
         long endTime = System.nanoTime();

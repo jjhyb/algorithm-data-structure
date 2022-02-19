@@ -1,14 +1,14 @@
 package com.yibo.algorithm.heapsort;
 
-import com.yibo.datastructure.maxheap.Array;
-
 /**
  * @Author: huangyibo
  * @Date: 2022/2/17 22:54
  * @Description: 最大堆 完全二叉树，父亲节点大于等于孩子节点，采用数组表示
  */
+
 public class MaxHeap<E extends Comparable<E>> {
 
+    //这里使用数组作为底层实现
     private Array<E> data;
 
     public MaxHeap(){

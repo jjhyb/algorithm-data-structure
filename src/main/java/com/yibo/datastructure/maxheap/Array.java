@@ -3,7 +3,7 @@ package com.yibo.datastructure.maxheap;
 /**
  * @Author: huangyibo
  * @Date: 2021/12/25 17:29
- * @Description: 数组实现栈
+ * @Description: 数组实现
  */
 public class Array<E> {
 

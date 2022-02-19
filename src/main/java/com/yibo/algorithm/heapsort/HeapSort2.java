@@ -3,11 +3,12 @@ package com.yibo.algorithm.heapsort;
 /**
  * @Author: huangyibo
  * @Date: 2022/2/19 0:42
- * @Description: 堆排序：原地排序，
+ * @Description: 堆排序：原地排序
  * 1、先将待排序数组整理成最大堆的形状
  * 2、然后将堆的最开始索引的值即最大值和最后面的索引值交换，不断循完成排序
  * 3、每交换一轮后，将0索引元素和其左右孩子节点元素进行比较，如果比左右孩子小，则交换位置，不断循环
  */
+
 public class HeapSort2 {
 
     public static <E extends Comparable<E>> void heapSort(E[] arr){

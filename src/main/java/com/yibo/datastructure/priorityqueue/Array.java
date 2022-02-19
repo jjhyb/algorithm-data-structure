@@ -1,9 +1,9 @@
-package com.yibo.algorithm.heapsort;
+package com.yibo.datastructure.priorityqueue;
 
 /**
  * @Author: huangyibo
  * @Date: 2021/12/25 17:29
- * @Description: 数组实现
+ * @Description: 动态数组实现
  */
 
 public class Array<E> {
