@@ -7,6 +7,10 @@ import com.yibo.algorithm.mergesort.*;
 import com.yibo.algorithm.quicksort.*;
 import com.yibo.algorithm.selectionsort.SelectionSort;
 import com.yibo.algorithm.heapsort.HeapSort;
+import com.yibo.algorithm.shellsort.ShellSort;
+import com.yibo.algorithm.shellsort.ShellSort2;
+import com.yibo.algorithm.shellsort.ShellSort3;
+import com.yibo.algorithm.shellsort.ShellSort4;
 
 /**
  * @Author: huangyibo
@@ -64,7 +68,16 @@ public class SortingHelper {
             BubbleSort4.bubbleSort(arr);
         }else if("BubbleSort5".equals(sortName)){
             BubbleSort5.bubbleSort(arr);
+        }else if("ShellSort".equals(sortName)){
+            ShellSort.shellSort(arr);
+        }else if("ShellSort2".equals(sortName)){
+            ShellSort2.shellSort(arr);
+        }else if("ShellSort3".equals(sortName)){
+            ShellSort3.shellSort(arr);
+        }else if("ShellSort4".equals(sortName)){
+            ShellSort4.shellSort(arr);
         }
+
 
         long endTime = System.nanoTime();
         double time = (endTime - startTime) / 1000000000.0;
