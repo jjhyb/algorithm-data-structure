@@ -43,6 +43,17 @@ public class SinglyLinkedListTest {
         list.forEach(System.out::println);
     }
 
+    @DisplayName("链表头部添加元素, 递归循环遍历元素")
+    @Test
+    public void loop3Test(){
+        SinglyLinkedList<Integer> list = new SinglyLinkedList<>();
+        list.addFirst(1);
+        list.addFirst(2);
+        list.addFirst(3);
+        list.addFirst(4);
+        list.loop3(System.out::println);
+    }
+
     @DisplayName("尾部添加元素")
     @Test
     public void addLastTest(){

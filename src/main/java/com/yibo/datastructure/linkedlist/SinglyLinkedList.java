@@ -214,5 +214,19 @@ public class SinglyLinkedList<E> implements Iterable<E> {
         }
     }
 
+    /**
+     * 遍历 递归遍历方式
+     * @param consumer 要执行的操作
+     */
+    public void loop3(Consumer<E> consumer){
+        recursion(head, consumer);
+    }
 
+    private void recursion(Node<E> cur, Consumer<E> consumer){
+        if(cur == null){
+            return;
+        }
+        consumer.accept(cur.e);
+        recursion(cur.next, consumer);
+    }
 }
